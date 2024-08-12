@@ -1,4 +1,4 @@
-<img width="1710" alt="image" src="https://github.com/user-attachments/assets/e91194f6-ef6c-464b-9c36-4a1de84fb89c"># MLS Course to JSON
+# MLS Course to JSON
 
 This script combines C and JavaScript to convert course information from MLS into JSON files, without relying on web automation libraries like Selenium or Puppeteer.
 
