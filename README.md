@@ -1,6 +1,7 @@
 # MLS Course to JSON
 
 This script combines C and JavaScript to convert course information from MLS into JSON files, without relying on web automation libraries like Selenium or Puppeteer.
+Tested and working on Mac, idk sa windows. Just have to modify some codes for it to work. 
 
 # Features
 
