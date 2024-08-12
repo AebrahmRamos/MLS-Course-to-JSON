@@ -8,6 +8,6 @@ Simple script C and Javascript that obtains a list of courses from MLS and parse
 
 # Guide
 1. Run fetchCourse.c `gcc fetchCourse.c -o fetchCourse && ./fetchCourse`
-  `fetchCourse.c` will fetch course data from MLS based from the courses listed in `subjects.txt`. html files will be generated in `htmlFiles` folder
+  **fetchCourse.c** will fetch course data from MLS based from the courses listed in **subjects.txt**. html files will be generated in **htmlFiles** folder
 2. Run index.js `node index.js`
 3. JSON files of each course subjects will then be saved under courseJSON folder
