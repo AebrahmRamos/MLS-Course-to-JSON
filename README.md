@@ -24,13 +24,17 @@ This script combines C and JavaScript to convert course information from MLS int
    ```
    
 ## Setting Cookies in fetchCourse.c
+<img width="1413" alt="image" src="https://github.com/user-attachments/assets/3dfc0203-960d-4bcb-b882-088bdffcd788">
+
 1. Open ([MLS View Course Offerings](https://enroll.dlsu.edu.ph/dlsu/view_course_offerings))
 2. Open Inspect Element and navigate to Network tab
 3. Enter your ID No. and Submit. You will now be redirected to the page asking for "Course"
 4. Under Network tab find "view_course_offerings", go under Request Headers, and find cookie.
 5. Do not copy the whole cookie, find the cf_clearance and copy starting from "cf_clearance = ..." until the end of the clearance string
-6. Replace the value of cookie variable in `fetchCourse.c` with the copied cookie
-7. You're ready to go
+   <img width="655" alt="image" src="https://github.com/user-attachments/assets/6a5bfa34-d3a1-496f-8e2c-4bf3eb2b13f8">
+
+7. Replace the value of cookie variable in `fetchCourse.c` with the copied cookie
+8. You're ready to go
 
 
 
